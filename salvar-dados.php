@@ -1,9 +1,9 @@
 ﻿<?php
 
     $n = $_POST["n"];
-    $data = $_POST["email"];
-    $firma = $_POST["endereco"];
-    $ender = $_POST["motivo"];
+    $data = $_POST["data"];
+    $firma = $_POST["firma"];
+    $ender = $_POST["ender"];
     $compl = $_POST["compl"];
     $bairro = $_POST["bairro"];
     $cidade = $_POST["cidade"];
@@ -30,7 +30,7 @@
     }
 
 
-	// Verifica se um número foi informado
+	function validaCNPJ(cnpj == null){}
 	if(empty($cnpj)) {
 		echo "<b> CNPJ não valido </b>";
 		include "Formulario-cadastro-cliente.php";

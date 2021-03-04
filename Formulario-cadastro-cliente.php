@@ -19,13 +19,13 @@ if(!isset($n))
 }
 ?>
 <h1>Mine Horta Vale Verde</h1>
-<form method="post" action="salva-dados.php">
+<form method="post" action="salvar-dados.php">
     <p>N: <input type="number" name="n" size="80" value="<?=$n?>"></p>
     <p>Data: <input type="date" name="data" size="80" value="<?=$data?>"></p>
     <p>Firma: <input type="text" name="firma" size="80" value="<?=$firma?>"></p>
     <p>Ender: <input type="text" name="ender" size="80" value="<?=$ender?>"></p>
-    <p>Compl:<input type="date" name="data" size="80" value="<?=compl?>"></p>
-    <p>Bairro:<input type="text" name="bairro" size="80" value="<?=bairro?>"></p>
+    <p>Compl:<input type="text" name="compl" size="80" value="<?=$compl?>"></p>
+    <p>Bairro:<input type="text" name="bairro" size="80" value="<?=$bairro?>"></p>
     <p>Cidade:<input type="text" name="cidade" size="80" value="<?=$cidade?>"></p>
     <p>Estado:<input type="text" name="estado" size="80" value="<?=$estado?>"></p>
     <p>CEP:<input type="text" name="cep" size="80" value="<?=$cep?>"></p>
